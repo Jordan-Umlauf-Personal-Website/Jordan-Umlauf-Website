@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff0000;
+    color: #1900ff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    }
+main {
+    padding-top: 100px; /* to avoid content being hidden behind the header */
+    }
