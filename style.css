@@ -7,8 +7,35 @@ header {
     color: #1900ff;
     padding: 10px;
     box-sizing: border-box;
-    display: flex;
     }
+body {
+    font-family:   Verdana, Geneva, Tahoma, sans-serif;
+    color: #1900ff;
+    background-color: aqua;
+}
 main {
     padding-top: 100px; /* to avoid content being hidden behind the header */
+    }
+section > img {
+        height: 256px;
+        float: right;
+        margin: 0 0 24px 24px;
+    }
+section {
+    height: auto;
+}
+.links {
+        float: right;
+    }
+.links a.active {
+        border-bottom: 1px solid #555;
+    }
+
+.links a {
+        text-decoration: none;
+        color: #1900ff;
+        margin-left: 0;
+    }
+section {
+            border-top: 1px solid #bbb;
     }
