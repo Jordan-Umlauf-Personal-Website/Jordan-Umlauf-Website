@@ -16,10 +16,11 @@ body {
 main {
     padding-top: 100px; /* to avoid content being hidden behind the header */
     }
-section > img {
-        height: 256px;
-        float: right;
-        margin: 0 0 24px 24px;
+ img {
+        height: 250px;
+        width: 250px;
+        /* float: right; */
+        /* margin: 0 0 24px 24px; */
     }
 section {
     height: auto;
@@ -38,4 +39,15 @@ section {
     }
 section {
             border-top: 1px solid #bbb;
+    }
+
+
+    .esteban-class{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .content{
+        display: flex;
     }
