@@ -8,23 +8,22 @@ header {
     padding: 10px;
     box-sizing: border-box;
     }
+
 body {
     font-family:   Verdana, Geneva, Tahoma, sans-serif;
     color: #1900ff;
     background-color: aqua;
-}
+    }
+
 main {
     padding-top: 100px; /* to avoid content being hidden behind the header */
     }
- img {
+
+img {
         height: 250px;
-        width: 250px;
-        /* float: right; */
-        /* margin: 0 0 24px 24px; */
+        width: 250px
     }
-section {
-    height: auto;
-}
+
 .links {
         float: right;
     }
@@ -38,16 +37,24 @@ section {
         margin-left: 0;
     }
 section {
-            border-top: 1px solid #bbb;
+    height: auto;
+    border-top: 1px solid #bbb;
     }
 
+section:nth-of-type(odd) h3 {
+    text-align: right;
+}
 
-    .esteban-class{
+section:nth-of-type(even) h3 {
+    text-align: left;
+}
+
+.esteban-class{
         display: flex;
         flex-direction: column;
         
     }
 
-    .content{
+.content{
         display: flex;
     }
